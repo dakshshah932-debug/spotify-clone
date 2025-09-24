@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/spotify favicon.png" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="/images/logo.svg" alt="logo" style="filter: invert();">
+        </div>
+        <section class="mid">
+            <div class="home">
+                <button><img src="images/home.svg" alt="home" style="filter: invert();"></button>
+            </div>
+            <div class="search">
+                <div class="searchlogo">
+                    <button><img src="images/search.svg" alt="search" style="filter: invert();"></button>
+                </div>
+                <div class="text">
+
+                    <input type="text" name="song" id="song" placeholder="What do you want to play?">
+                </div>
+                <p>|</p>
+                <div class="browselogo">
+                    <button><img src="images/browse.svg" alt="browse" style="filter: invert();"></button>
+                </div>
+            </div>
+        </section>
+        <section class="end">
+            <div class="signup">
+                <button>Sign up</button>
+            </div>
+            <div class="login">
+                <button>Log in</button>
+            </div>
+        </section>
+
+    </div>
+    <div class="main">
+        <div class="left">
+
+            <div class="space">
+                <div class="library">
+                    <button><img src="images/library.svg" alt="library"></button>
+                    <p>Your Library</p>
+                    <button class="plus"><img src="images/plus.svg" alt="plus" style="filter: invert();"></button>
+                </div>
+                <div class="close">
+                    <img src="images/close.svg" alt="" style="filter: invert();">
+                </div>
+            </div>
+            <div class="songlist">
+                <ul>
+
+                </ul>
+
+            </div>
+            <!-- <div class="container">
+                <div class="con1">
+                    <p class="p1"><b>Create your first playlist</b></p>
+                    <p class="p2">It's easy we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="con2">
+                    <p class="p1">Let,s find some podcasts to follow</p>
+                    <p class="p2">We'll keep you updated on new episodes</p>
+                    <button>Browse podcasts</button>
+                </div>
+            </div> -->
+            <div class="lfoot">
+                <div class="fl">
+                    <p>Legal</p>
+                    <p>Safety & Privacy Center</p>
+                </div>
+                <div class="sl">
+                    <p>Privacy Policy</p>
+                    <p>Cookies</p>
+                    <p>About Ads</p>
+                </div>
+                <div class="ll">
+                    <p>Acessiblity</p>
+                    <p style="color: white;">Cookies</p>
+                </div>
+                <div class="lang">
+                    <button><img src="images/world.svg" alt="" style="filter: invert();">
+                        <p>English</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <div class="hamburger"><img src="images/hamburger.svg" alt="" style="filter: invert();"></div>
+                <p class="sp">Spotify Playlists</p>
+            </div>
+            <div class="contr"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="playbox">
+        <div class="abvbar">
+            <div class="sname"></div>
+            <div class="btns">
+                <img id="previous" src="images/previous.svg" alt="">
+                <img id="play" src="images/play.svg" alt="">
+                <img id="next" src="images/next.svg" alt="">
+            </div>
+            <div class="grp">
+                <div class="stime"></div>
+                <div class="volume">
+                    <img src="images/volume.svg" alt="">
+                    <div class="range">
+                        <div class="volume-control">
+                            <input type="range" id="volume" min="0" max="100" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="play">
+            <div class="greenbox"></div>
+            <div class="thinbox">
+                <div class="circle"></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
